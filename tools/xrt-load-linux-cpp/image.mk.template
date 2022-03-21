@@ -1,0 +1,9 @@
+BOOTROM_BIN := bootrom.bin
+BOOTROM_ELF := bootrom.elf
+DEVICETREE := devicetree.dtb
+SBI_BIN := fw_jump.bin
+SBI_ELF := fw_jump.elf
+LINUX_IMAGE := Image
+LINUX_ELF := vmlinux
+ROOTFS_IMAGE := rootfs.cpio.gz
+XRT_LOAD_LINUX := ./xrt-load-linux
